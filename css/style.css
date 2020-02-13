@@ -1,0 +1,162 @@
+body {
+    background-color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.logo-area {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.header-navigation {
+    width: 100%;
+    background-color: #333;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.header-navigation:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.header-navigation li {
+    float: left;
+    padding: 0 30px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.header-navigation li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-left {
+    width: 620px;
+    margin-right: 20px;
+    float: left;
+}
+
+.container-right {
+    width: 320px;
+    float: left;
+}
+
+.left-blog-container:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.left-blog-container {
+    margin-bottom: 40px;
+}
+
+.left-blog-container img {
+    width: 150px;
+    height: 160px;
+    border: 4px #dcdcdc solid;
+    float: left;
+    margin-left: 30px;
+}
+
+.left-blog-container-right {
+    width: 400px;
+    float: left;
+    padding-left: 10px;
+}
+
+.left-blog-date {
+    margin: 0;
+    font-size: 15px;
+    color: #999;
+}
+
+.left-blog-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.blog-content {
+    font-size: 12px;
+}
+
+.right-blog-title {
+    margin: 0;
+    width: 80%;
+    border-bottom: 2px #dcdcdc solid;
+    font-size: 30px;
+}
+
+.right-blog-container img {
+    width: 40px;
+    border: 4px #dcdcdc solid;
+    float: left;
+}
+
+.right-blog-container-right {
+    float: left;
+    padding-left: 10px;
+}
+
+.right-blog-container {
+    margin-top: 15px;
+}
+
+.right-blog-container:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.right-blog-date {
+    margin: 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.right-blog-link {
+    margin: 0;
+}
+
+.right-blog-link a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main-container:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+footer {
+    width: 92%;
+    border-top: 2px #dcdcdc solid;
+    padding: 30px 0 50px 0;
+    margin: 50px auto 0px auto;
+}
+
+.copyright {
+    margin: 0;
+    text-align: center;
+    color: #777;
+}
